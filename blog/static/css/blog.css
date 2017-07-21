@@ -1,11 +1,23 @@
 .page-header {
     background-color:  #CA8F8C;
     margin-top: 30px;
+    position: relative;
+    height: 200px;
     padding: 20px 20px 20px 40px;
 }
 
 body {
   overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+#header2 {
+  font-family: 'Amatic SC', cursive;
+  font-size:25pt;
+      color: #ffffff;
+      top: -45px;
+      position: relative;
+       left: 48%;
 }
 
 .side { vertical-align:absbottom; display:inline }
@@ -31,31 +43,36 @@ body {
 {
   position: relative;
  left: 100px;
+ top: 30px;
 }
 
 #postborder
 {
-  border-color: #CA8F8C;
+  background-color: #FFFFFF;
   border-radius: 25px;
-      border: 2px solid #73AD21;
-      padding: 20px;
-      width: 200px;
-      height: 150px;
+  border: 2px solid #AC716E;
+  padding: 30px;
+  width: 60%;
 }
 
-}
+
 .post {
+  position: relative;
+  top: -30px;
       font-family: 'arial';
     font-size: 24px;
 }
 
 .posttitle {
-  margin-left: 0px;
+  position: relative;
+  top: -30px;
   font-family: 'Amatic SC', cursive;
   font-size: 80px;
 }
 
 .date {
+  position: relative;
+  top: -30px;
     color: #828282;
     font-size: 16px;
     font-family: 'arial';
